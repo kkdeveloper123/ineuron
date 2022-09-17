@@ -228,88 +228,12 @@
                                         <span class="pcoded-mtext">Users</span>
                                     </a>
                                 </li>
-
-                                <li class="pcoded-hasmenu pcoded-trigger">
-                                    <a href="javascript:void(0)">
-                                        <span class="pcoded-micon">
-                                            <i class="feather icon-layers"></i>
-                                        </span>
-                                        <span class="pcoded-mtext">Content</span>
-                                    </a>
-                                    <ul class="pcoded-submenu">
-                                        <li>
-                                            <a href="{{ route('admin.categoryIndex') }}">
-                                                <span class="pcoded-mtext">Category</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ route('admin.subcategoryIndex') }}">
-                                                <span class="pcoded-mtext">Sub Category</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ route('admin.subjectIndex') }}">
-                                                <span class="pcoded-mtext">Subject</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ route('admin.topicIndex') }}">
-                                                <span class="pcoded-mtext">Topics</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-
-
                                 <li class="">
-                                    <a href="{{ route('admin.examEventsIndex') }}">
+                                    <a href="{{ route('admin.categoryIndex') }}">
                                         <span class="pcoded-micon"><i class="feather icon-menu"></i></span>
-                                        <span class="pcoded-mtext">Exam Events</span>
+                                        <span class="pcoded-mtext">Category</span>
                                     </a>
                                 </li>
-                                {{--
-                                <li class="">
-                                    <a href="{{ route('admin.subcategoryIndex') }}">
-                                <span class="pcoded-micon"><i class="feather icon-menu"></i></span>
-                                <span class="pcoded-mtext">Sub Category</span>
-                                </a>
-                                </li> --}}
-
-
-                                <li class="">
-                                    <a href="{{ route('admin.blogs') }}">
-                                        <span class="pcoded-micon"><i class="feather icon-menu"></i></span>
-                                        <span class="pcoded-mtext">Blogs</span>
-                                    </a>
-                                </li>
-                                <li class="">
-                                    <a href="{{ route('admin.emailIndex',['inbox']) }}">
-                                        <span class="pcoded-micon"><i class="feather icon-menu"></i></span>
-                                        <span class="pcoded-mtext">Emails</span>
-                                    </a>
-                                </li>
-                                <li class="">
-                                    <a href="{{ route('admin.faqIndex') }}">
-                                        <span class="pcoded-micon"><i class="feather icon-menu"></i></span>
-                                        <span class="pcoded-mtext">FAQs</span>
-                                    </a>
-                                </li>
-
-                                <li class="">
-                                    <a href="{{ route('admin.tagsIndex') }}">
-                                        <span class="pcoded-micon"><i class="feather icon-menu"></i></span>
-                                        <span class="pcoded-mtext">Tags</span>
-                                    </a>
-                                </li>
-
-
-                                <li class="">
-                                    <a href="{{ route('admin.showPayments') }}">
-                                        <span class="pcoded-micon"><i class="feather icon-menu"></i></span>
-                                        <span class="pcoded-mtext">Payments</span>
-                                    </a>
-                                </li>
-
                                 <li class="">
                                     <a href="{{ route('admin.subadminIndex') }}">
                                         <span class="pcoded-micon"><i class="feather icon-menu"></i></span>
@@ -340,7 +264,7 @@
                                     <ul class="pcoded-submenu">
                                         <li>
                                             <a href="{{ route('admin.settingIndex') }}">
-                                                <span class="pcoded-mtext">Payment</span>
+                                                <span class="pcoded-mtext">Google Authentication</span>
                                             </a>
                                         </li>
                                         <li>
@@ -349,21 +273,6 @@
                                             </a>
                                         </li>
                                     </ul>
-                                </li>
-
-                                <li class="pcoded-hasmenu">
-                                    <a href="javascript:void(0)">
-                                        <span class="pcoded-micon"><i class="feather icon-layers"></i></span>
-                                        <span class="pcoded-mtext">Seo Management</span>
-                                    </a>
-                                    <ul class="pcoded-submenu">
-                                        <li>
-                                            <a href="{{ route('admin.seoPagesIndex') }}">
-                                                <span class="pcoded-mtext">Seo Pages</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-
                                 </li>
                             </ul>
                         </div>
