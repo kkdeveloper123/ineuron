@@ -1,4 +1,4 @@
-## Project installation
+## Tech-A-Thon 2.0
 
 -   **Install the vendor by [composer](https://getcomposer.org/)**
 

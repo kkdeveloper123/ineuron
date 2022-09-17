@@ -17,11 +17,7 @@ class DatabaseSeeder extends Seeder
 
         $this->call([
             adminLogin::class,
-            CountrySeeder::class,
-            PrivacyPolicy::class,
-            EmailSettings::class,
-            PaymentSeeder::class,
-            All::class,
+            All::class
         ]);
     }
 }
