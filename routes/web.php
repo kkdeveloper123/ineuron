@@ -3,26 +3,13 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\admin\AdminController;
-use App\Http\Controllers\admin\AttributeController;
 use App\Http\Controllers\admin\AuthController;
-use App\Http\Controllers\admin\BlogsController;
 use App\Http\Controllers\admin\CategoriesController;
-use App\Http\Controllers\admin\FaqsController;
 use App\Http\Controllers\admin\PagesController;
 use App\Http\Controllers\admin\ProfileController;
-use App\Http\Controllers\admin\SeoController;
 use App\Http\Controllers\admin\SettingController;
-use App\Http\Controllers\admin\SubadminController;
-use App\Http\Controllers\admin\SubcategoryController;
-use App\Http\Controllers\admin\TemplatePagesController;
 use App\Http\Controllers\admin\UsersAdminController;
 use App\Http\Controllers\admin\EmailingController;
-use App\Http\Controllers\admin\AjaxController;
-use App\Http\Controllers\admin\ExamEventsController;
-use App\Http\Controllers\admin\TagsController;
-
-use App\Http\Controllers\admin\SubjectController;
-use App\Http\Controllers\admin\TopicController;
 
 
 
@@ -38,22 +25,6 @@ use App\Http\Controllers\admin\TopicController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-// Route::get('/', function () {
-//     return view('site.index');
-// });
-
-// Route::get('/mailable', function () {
-//     $data = ["heading" => "Reset Password",
-//         "link" => "asdas",
-//         'msg' => "If you've lost password or wish to reset it, use the link below to get started.",
-//         'btn_text' => "Reset Your Password",
-//         'footer' => 'If you did not request a password reset, you can safely ignore this email. Only a person with access to your email can reset your account password.',
-//     ];
-//     return new App\Mail\AuthMail($data);
-// });
-
-// Route::view('/welcome', 'welcome');
 
 Route::prefix('project-admin-panel')->group(function () {
 
