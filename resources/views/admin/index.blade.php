@@ -264,7 +264,7 @@
                                     <ul class="pcoded-submenu">
                                         <li>
                                             <a href="{{ route('admin.settingIndex') }}">
-                                                <span class="pcoded-mtext">Google Authentication</span>
+                                                <span class="pcoded-mtext">Google  Authentication</span>
                                             </a>
                                         </li>
                                         <li>
