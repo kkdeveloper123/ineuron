@@ -1,0 +1,36 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Http\Controllers\Controller;
+use Illuminate\Http\Request;
+
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
+
+class {{ class }} extends Controller
+{
+    public function index(Request $req)
+    {
+      //$all_info = Event::all();
+      //return view('admin.events.index', compact('all_info'));
+
+        return view('');
+    }
+
+    public function test(Request $req)
+    {
+        $validator = $req->validate([
+            'email' => 'required|email',
+            'password' => 'required',
+        ]);
+
+      $input = $req->input();
+
+       //if () {
+          //  return redirect()->route('admin.dashboard');
+        //} else {
+          //  return back()->with('flash-error', 'Invalid credentials')->withInput();
+        //}
+    }
+}

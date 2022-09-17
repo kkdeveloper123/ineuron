@@ -1,0 +1,15 @@
+.form-valid-error {
+    color: #ff4135;
+}
+
+.is-invalid {
+    border: 1px solid #ff4135 !important;
+}
+.flash-modal .md-content h3{
+    background: #ff4135;
+}
+
+.flash-modal button{
+    background-color: #ff4135;
+    border-color: #ff4135;
+}

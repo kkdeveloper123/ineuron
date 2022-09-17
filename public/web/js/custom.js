@@ -1,0 +1,1 @@
+setTimeout(function() { $(".site-toastr").trigger('click'); }, 800);
